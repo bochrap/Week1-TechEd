@@ -29,6 +29,7 @@ header {
   background-color: aquamarine;
   display: flex;
   align-items: center;
+  padding-left: 15px;
 }
 
 footer {
@@ -43,9 +44,12 @@ footer {
 
 h1 {
   color: white;
-  margin-left: 15px;
   margin-right: 50px;
   font-size: 30px;
+}
+
+h2 {
+  color: white;
 }
 
 a {
@@ -68,11 +72,25 @@ button {
   color: white;
   background-color: transparent;
   height: 50px;
-  width: 160px;
+  width: 250px;
   border: 2px solid white;
+  margin-top: 20px;
+  padding-left: 35px;
 }
 
 button:hover {
   background-color: white;
   color: black;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 33%;
+  left: 4%;
 }
