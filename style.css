@@ -1,3 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+}
 .container {
   position: relative;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-top {
+  background-image: url("./images/background2.jpg");
+}
+
+.container-middle {
+  background-image: url("./images/background1.png");
+}
+
+.container-bottom {
+  background-image: url("./images/background3.jpg");
+}
+
+header {
+  position: absolute;
+}
+
+footer {
+  display: flex;
+  height: 90px;
+  background-color: black;
+  color: rgb(145, 145, 145);
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
 }
