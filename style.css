@@ -13,15 +13,15 @@ body {
   position: relative;
 }
 
-.container-top {
+#container-top {
   background-image: url("./images/background2.jpg");
 }
 
-.container-middle {
+#container-middle {
   background-image: url("./images/background1.png");
 }
 
-.container-bottom {
+#container-bottom {
   background-image: url("./images/background3.jpg");
 }
 
