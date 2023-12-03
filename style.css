@@ -1,5 +1,6 @@
 * {
   font-family: sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -95,7 +96,7 @@ button {
   margin-top: 15px;
   padding-left: 35px;
   font-weight: 800;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
 }
 
 button:hover {
@@ -111,6 +112,6 @@ button:hover {
   align-items: flex-start;
   justify-content: space-between;
   position: absolute;
-  bottom: 20%;
+  bottom: 25%;
   left: 3%;
 }
